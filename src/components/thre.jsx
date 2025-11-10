@@ -23,7 +23,7 @@ export default function CountryInfo() {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <span className="loading loading-spinner loading-lg text-primary"></span>
-        <p className="ml-3 text-xl text-primary">Ma’lumot yuklanmoqda...</p>
+        <p className="ml-3 text-xl text-primary"> Yuklanmoqda...</p>
       </div>
     );
 

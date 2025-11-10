@@ -74,8 +74,6 @@ export default function CountriesList() {
           </article>
         ))}
       </div>
-
-      {/* Pagination */}
     </section>
   );
 }

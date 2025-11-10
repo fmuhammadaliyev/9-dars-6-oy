@@ -41,7 +41,7 @@ export default function CountryInfo() {
           <img
             src={info.flags.png}
             alt={info.name.common}
-            className="rounded-xl h-56 object-cover"
+            className="rounded-xl h-56 object-cover w-full"
           />
         </figure>
         <div className="card-body items-center text-center">

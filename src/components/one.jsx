@@ -33,7 +33,7 @@ export default function CountriesList() {
   return (
     <section className="min-h-screen bg-base-200 py-10 px-6">
       <h1 className="text-4xl text-center font-bold text-primary mb-10">
-        🌎 Dunyo davlatlari
+        Dunyo davlatlari
       </h1>
 
       <div className="flex justify-center items-center gap-4 mt-6">
@@ -42,7 +42,7 @@ export default function CountriesList() {
           disabled={page === 1}
           onClick={() => setPage((p) => Math.max(1, p - 1))}
         >
-          ⬅️ Oldingi
+          Oldingi
         </button>
 
         <span className="text-lg font-semibold text-neutral">
@@ -54,7 +54,7 @@ export default function CountriesList() {
           disabled={page === totalPages}
           onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
         >
-          Keyingi ➡️
+          Keyingi
         </button>
       </div>
 
@@ -74,9 +74,9 @@ export default function CountriesList() {
 
             <div className="card-body">
               <h2 className="card-title text-primary">{item.name.common}</h2>
-              <p>🌍 {item.region}</p>
-              <p>🏙️ {item.capital?.[0] || "Noma’lum"}</p>
-              <p>👥 {item.population.toLocaleString()}</p>
+              <p> {item.region}</p>
+              <p> {item.capital?.[0] || "Noma’lum"}</p>
+              <p> {item.population.toLocaleString()}</p>
 
               <div className="card-actions justify-end mt-3">
                 <button

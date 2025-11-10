@@ -63,7 +63,6 @@ export default function CountriesList() {
           <article
             key={item.name.common}
             className="card bg-base-100 shadow-xl hover:shadow-2xl transition hover:scale-[1.02]"
-            /* onClick removed so card itself is NOT clickable */
           >
             <figure className="h-44">
               <img

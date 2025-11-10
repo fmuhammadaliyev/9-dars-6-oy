@@ -79,7 +79,6 @@ export default function CountriesList() {
               <p>🏙️ {item.capital?.[0] || "Noma’lum"}</p>
               <p>👥 {item.population.toLocaleString()}</p>
 
-              {/* Batafsil tugma — faqat shu tugma orqali sahifaga o'tadi */}
               <div className="card-actions justify-end mt-3">
                 <button
                   className="btn btn-primary btn-sm"

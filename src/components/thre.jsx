@@ -22,8 +22,8 @@ export default function CountryInfo() {
   if (!info)
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <span className="loading loading-spinner loading-lg text-primary"></span>
-        <p className="ml-3 text-xl text-primary"> Yuklanmoqda...</p>
+        <span className="loading loading-spinner loading-lg text-black"></span>
+        <p className="ml-3 text-xl text-black"> Yuklanmoqda...</p>
       </div>
     );
 
@@ -31,9 +31,9 @@ export default function CountryInfo() {
     <main className="min-h-screen bg-base-200 flex flex-col items-center py-10 px-6">
       <button
         onClick={() => nav("/")}
-        className="btn btn-outline btn-primary mb-8 self-start"
+        className="btn btn-outline btn-black mb-8 self-start"
       >
-        ⬅️ Orqaga
+        Orqaga
       </button>
 
       <div className="card bg-base-100 shadow-2xl max-w-lg w-full">
@@ -45,9 +45,7 @@ export default function CountryInfo() {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h1 className="text-3xl font-bold text-primary">
-            {info.name.common}
-          </h1>
+          <h1 className="text-3xl font-bold text-black">{info.name.common}</h1>
           <div className="divider"></div>
 
           <ul className="space-y-2 text-lg">
